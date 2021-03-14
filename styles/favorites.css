@@ -66,8 +66,8 @@ body {
     height: 80px;
     background: linear-gradient(270deg, #745ECE 0%, rgba(105, 72, 237, 0.41) 47.4%, #5E63C8 82.29%);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    margin-bottom: 77px;
 }
+
 
 .list-products{
     margin: 0 100px;
@@ -86,10 +86,9 @@ body {
 .img-phone{
     background-image: url('/assets/phone.png');
     height: 180px;
-    background-repeat: no-repeat;
     width: 180px;
     background-size: contain;
-    cursor: pointer;
+    background-repeat: no-repeat;
 }
 
 .price-name{
@@ -117,13 +116,69 @@ body {
     line-height: 22px;
     margin-top: 47px;
 }
-.city{
-    margin-left: 493px;
-}
-
-
-.prueba{
-    background-color: red;
+.view-product{
     width: 200px;
-    height: 200px;
+    height: 51px;
+    background: #C968CB;
+    border-radius: 20px;
+    margin-left: 456px;
+    margin-top: 57px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    
+    color: #FFFFFF;
+    
 }
+
+.check{
+    background: red;
+    width: 20px;
+    height: 20px;
+    margin-top: 80px;
+    
+}
+
+.title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 34px;
+    margin-left: 100px;
+    color: #000000;
+}
+
+.delete-container{
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 89px;
+    display: flex;
+}
+
+.check-delete{
+    height: 20px;
+    width: 20px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.delete-button{
+    background: #E1677D;
+    border-radius: 20px;
+    width: 200px;
+    height: 51px;
+    margin-top: 15px;
+    margin-left: 40px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+

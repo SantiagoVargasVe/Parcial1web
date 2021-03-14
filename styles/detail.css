@@ -124,11 +124,19 @@ body {
     background: #C968CB;
     border-radius: 20px;
     border-color: #FFFFFF; 
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
 }
 .favorite{
     height: 51px;
     background: #8C86D7;
     border-radius: 20px;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
 }
 .description{
     width: 828px;
@@ -147,4 +155,58 @@ body {
     line-height: 17px;
     text-align: justify;
     color: #B8ACAC;
+}
+
+.modal{
+    position:fixed;
+    top: 250px;
+    left: 450px;
+    right: 0;
+    bottom: 0;
+    visibility: hidden;
+    width: 578px;
+    height: 364px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #C6C2C2;
+    background-color: #FFFFFF;
+}
+
+.modal-title{
+    margin-top: 80px;
+    margin-bottom: 31px;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+}
+.add{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    margin-bottom: 68px;
+
+
+}
+
+.close-modal{
+    width: 145px;
+    height: 51px;
+    margin-left: 420px;
+    background: #8C86D7;
+    border-radius: 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    margin-top: 9px;
+    color: #FFFFFF;
+}
+
+.container-button{
+    
+    border-top: 1px solid #D5C9C9; 
 }
