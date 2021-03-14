@@ -35,6 +35,7 @@ const createList = async() =>{
         let name= document.createElement('div')
         let city = document.createElement('div')
         containerProduct.className = 'product-container'
+        containerProduct.id = id + '?'
         img.className= 'img-phone'
         img.style.backgroundImage=`url('${pictureURL}')`
         img.id=id
@@ -75,6 +76,29 @@ const createList = async() =>{
 
         container.appendChild(containerProduct)
     })
+
+    let search_button = document.getElementById('search-button')
+    search_button.onclick = getCategories
 }
 
+const getCategories = () =>{
+    let text = document.getElementById('search-area').value
+    let result = false
+    let containers = document.querySelectorAll('.product-container')
+    let items = data.items
+    containers.forEach(element =>{
+        let actid = element.id.replace('?','')
+        let isCategory = items.filter( item =>{
+            return item.categories.includes(text) && item.id == actid
+        })
+        if (isCategory.length == 0){
+            element.style.display = 'none'
+        }else {
+            result= true
+        }
+    })
+    if (!result){
+        alert('No se encontro ningun producto con esta categoria')
+    }
+}
 createList()
