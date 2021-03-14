@@ -91,6 +91,11 @@ body {
     background-repeat: no-repeat;
 }
 
+.img-container{
+    height: 180px;
+    width: 180px;
+}
+
 .price-name{
     margin-left: 124px;
 }
@@ -111,17 +116,20 @@ body {
 }
 
 .name{
-    font-size: 20px;
+    font-style: normal;
     font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
     line-height: 22px;
     margin-top: 47px;
+    width: 400px;
+    margin-right: 200px;
 }
 .view-product{
     width: 200px;
     height: 51px;
     background: #C968CB;
     border-radius: 20px;
-    margin-left: 456px;
     margin-top: 57px;
     font-style: normal;
     font-weight: normal;
