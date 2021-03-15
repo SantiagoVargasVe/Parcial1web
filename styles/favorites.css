@@ -167,6 +167,7 @@ body {
   margin-right: 100px;
   height: 89px;
   display: flex;
+  width: 1240px;
 }
 
 .check-delete {
