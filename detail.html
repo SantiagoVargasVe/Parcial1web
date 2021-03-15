@@ -1,66 +1,70 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Parcial - Santiago Vargas Vega</title>
     <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
-    <link rel="stylesheet" href="/styles/detail.css">
-    <link rel="shortcut icon" href="https://www.creativefabrica.com/wp-content/uploads/2018/12/Tech-Icon-by-Zafreeloicon-153-580x386.jpg" type="image/x-icon">
-    
-</head>
+    <link rel="stylesheet" href="/styles/detail.css" />
+    <link
+      rel="shortcut icon"
+      href="https://www.creativefabrica.com/wp-content/uploads/2018/12/Tech-Icon-by-Zafreeloicon-153-580x386.jpg"
+      type="image/x-icon"
+    />
+  </head>
 
-<body>
+  <body>
     <header class="banner">
-        <a href="/home.html">
-            <img src="/assets/logo.png" alt="logo" class="logo">
-        </a>
-        <input class="search-area" placeholder="Filtrar por categoría" id="search-area">
-            <button class="search-button"  id="search-button">
-                <img class="search-logo" src="/assets/search.png" alt="search-button">
-            </button>
-        </input>
-        <a href="/favorites.html">
-            <img src="/assets/heart.png" alt="heart-favorites" class="heart">
-        </a>
+      <a href="/home.html">
+        <img src="/assets/logo.png" alt="logo" class="logo" />
+      </a>
+      <input
+        class="search-area"
+        placeholder="Filtrar por categoría"
+        id="search-area"
+      />
+      <button class="search-button" id="search-button">
+        <img class="search-logo" src="/assets/search.png" alt="search-button" />
+      </button>
+
+      <a href="/favorites.html">
+        <img src="/assets/heart.png" alt="heart-favorites" class="heart" />
+      </a>
     </header>
 
+    <main class="detail-main" id="detail-main">
+      <p class="breadcrumb" id="breadcrumb"></p>
 
-    <main class="detail-main" id='detail-main'>
-        <p class="breadcrumb" id="breadcrumb"> </p>
-
-        <div class="product-detail">
-            <img id="product-img" src="" alt="phone" class="product-img">
-            <div class="text-actions">
-                <div class="text">
-                    <p id="sold" class="sold"> </p>
-                    <p id="name" class="name"></p>
-                    <p id="price" class="price"></p>
-                </div>
-                <div class="buttons">
-                    <button id="buy" class="buy">Comprar</button>
-                    <button id ="favorite" class="favorite"> Añadir a favoritos</button>
-                </div>
-            </div>
-            <div class="description">
-                <p id="title" class="title"> Descripción del producto</p>
-                <p id="a-lot-of-text" class="a-lot-of-text"></p>
-            </div>
+      <div class="product-detail">
+        <img id="product-img" src="" alt="phone" class="product-img" />
+        <div class="text-actions">
+          <div class="text">
+            <p id="sold" class="sold"></p>
+            <p id="name" class="name"></p>
+            <p id="price" class="price"></p>
+          </div>
+          <div class="buttons">
+            <button id="buy" class="buy">Comprar</button>
+            <button id="favorite" class="favorite">Añadir a favoritos</button>
+          </div>
         </div>
-
+        <div class="description">
+          <p id="title" class="title">Descripción del producto</p>
+          <p id="a-lot-of-text" class="a-lot-of-text"></p>
+        </div>
+      </div>
     </main>
-    
+
     <div class="modal" id="modal">
-        <p class="modal-title" id="modal-title">Holaa</p>
-        <p class="add" id="add">Añadido al carrito de compras</p>
-        <div class="container-button" id="container-button">
-            <button class="close-modal" id="close-modal">
-                Close
-            </button>
-        </div>
+      <p class="modal-title" id="modal-title">Holaa</p>
+      <p class="add" id="add">Añadido al carrito de compras</p>
+      <div class="container-button" id="container-button">
+        <button class="close-modal" id="close-modal">Close</button>
+      </div>
     </div>
 
     <script src="scripts/detail.js"></script>
-</body>
+  </body>
+</html>

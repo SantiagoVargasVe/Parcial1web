@@ -51,9 +51,9 @@ const createFavorites = async () => {
     priceP.innerHTML = price;
     let delivery = document.createElement("img");
     if (record.free_shipping) {
-      delivery.src = "/assets/delivery.png";
+      delivery.src = "assets/delivery.png";
     } else {
-      delivery.src = "/assets/white.png";
+      delivery.src = "assets/white.png";
     }
     delivery.className = "delivery";
 
@@ -74,7 +74,7 @@ const createFavorites = async () => {
     button.onclick = function (button) {
       let contid = this.id.replace(":", "");
       localStorage.setItem("detail", contid);
-      window.location.href = "/detail.html";
+      window.location.href = "detail.html";
     };
     product_container.appendChild(button);
     product_container.className = "product-container";

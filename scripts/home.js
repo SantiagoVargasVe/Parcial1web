@@ -42,7 +42,7 @@ const createList = async () => {
     img.onclick = function (img) {
       localStorage.removeItem("detail");
       localStorage.setItem("detail", this.id);
-      window.location.href = "/detail.html";
+      window.location.href = "detail.html";
     };
     containerProduct.appendChild(img);
 
@@ -57,9 +57,9 @@ const createList = async () => {
     priceP.innerHTML = price;
     delivery.className = "delivery";
     if (free_shipping) {
-      delivery.src = "../assets/delivery.png";
+      delivery.src = "/assets/delivery.png";
     } else {
-      delivery.src = "../assets/white.png";
+      delivery.src = "/assets/white.png";
     }
     price_delivery.appendChild(priceP);
     price_delivery.appendChild(delivery);
