@@ -1,129 +1,133 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 html {
-    font-size: 100%;
-    box-sizing: border-box;
+  font-size: 100%;
+  box-sizing: border-box;
 }
 
-* , *::before , *::after{
-    box-sizing: inherit;
-    font-family: 'Lato', sans-serif;
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  font-family: "Lato", sans-serif;
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    line-height: 1.3;
+  margin: 0;
+  padding: 0;
+  line-height: 1.3;
 }
 
-.search-area{
-    position: absolute;
-    width: 892px;
-    height: 47px;
-    left: 448px;
-    top: 20px;
-    background: #FFFFFF;
-    
+.search-area {
+  position: absolute;
+  width: 892px;
+  height: 47px;
+  left: 448px;
+  top: 20px;
+  background: #ffffff;
 }
 
-.logo{
-    position: absolute;
-    width: 100px;
-    height: 60px;
-    left: 100px;
-    top: 10px;
-    mix-blend-mode: normal;
-    border-radius: 2px;
+.logo {
+  position: absolute;
+  width: 100px;
+  height: 60px;
+  left: 100px;
+  top: 10px;
+  mix-blend-mode: normal;
+  border-radius: 2px;
 }
-.search-logo{
-    position: absolute;
-    left: 17.86%;
-    right: 17.86%;
-    top: 10.64%;
-    bottom: 12.77%;
-    
+.search-logo {
+  position: absolute;
+  left: 17.86%;
+  right: 17.86%;
+  top: 10.64%;
+  bottom: 12.77%;
 }
-.search-button{
-    position: absolute;
-    width: 56px;
-    height: 47px;
-    left: 1284px;
-    top: 20px;
-    
-    background: #E5E5E5;
-    border: 1px solid #C6C2C2;
-    box-sizing: border-box;
+.search-button {
+  position: absolute;
+  width: 56px;
+  height: 47px;
+  left: 1284px;
+  top: 20px;
+
+  background: #e5e5e5;
+  border: 1px solid #c6c2c2;
+  box-sizing: border-box;
 }
 
-.heart{
-    position: absolute;
-    width: 44px;
-    height: 40px;
-    left: 1375px;
-    top: 20px;
+.heart {
+  position: absolute;
+  width: 44px;
+  height: 40px;
+  left: 1375px;
+  top: 20px;
 }
-.banner{
-    width: 1440px;
-    height: 80px;
-    background: linear-gradient(270deg, #745ECE 0%, rgba(105, 72, 237, 0.41) 47.4%, #5E63C8 82.29%);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    margin-bottom: 77px;
-}
-
-.list-products{
-    margin: 0 100px;
-    display: flex;
-    flex-direction: column;
-}
-
-.product-container{
-    width: 1240px;
-    height: 221px;
-    background: #FFFFFF;
-    border: 1px solid rgba(0 ,0 ,0 , 0.15);
-    padding: 30px 79px 11px 44px;
-    display: flex;
-}
-.img-phone{
-    background-image: url('/assets/phone.png');
-    height: 180px;
-    background-repeat: no-repeat;
-    width: 180px;
-    background-size: contain;
-    cursor: pointer;
+.banner {
+  width: 1440px;
+  height: 80px;
+  background: linear-gradient(
+    270deg,
+    #745ece 0%,
+    rgba(105, 72, 237, 0.41) 47.4%,
+    #5e63c8 82.29%
+  );
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-bottom: 77px;
 }
 
-.price-name{
-    margin-left: 124px;
+.list-products {
+  margin: 0 100px;
+  display: flex;
+  flex-direction: column;
 }
 
-.price-delivery{
-    font-size: 24px;
-    font-weight: normal;
-    line-height: 29px;
-    display: flex;
+.product-container {
+  width: 1240px;
+  height: 221px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  padding: 30px 79px 11px 44px;
+  display: flex;
 }
-.delivery{
-    width: 20px;
-    height: 20px;
-    margin-top: 4.3px;
-}
-.price{
-    width: 150px;
-}
-
-.name{
-    font-size: 20px;
-    font-weight: normal;
-    line-height: 22px;
-    margin-top: 47px;
-}
-.city{
-    margin-left: 493px;
+.img-phone {
+  background-image: url("/assets/phone.png");
+  height: 180px;
+  background-repeat: no-repeat;
+  width: 180px;
+  background-size: contain;
+  cursor: pointer;
 }
 
+.price-name {
+  margin-left: 124px;
+}
 
-.prueba{
-    background-color: red;
-    width: 200px;
-    height: 200px;
+.price-delivery {
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 29px;
+  display: flex;
+}
+.delivery {
+  width: 20px;
+  height: 20px;
+  margin-top: 4.3px;
+}
+.price {
+  width: 150px;
+}
+
+.name {
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 22px;
+  margin-top: 47px;
+}
+.city {
+  margin-left: 493px;
+}
+
+.prueba {
+  background-color: red;
+  width: 200px;
+  height: 200px;
 }
